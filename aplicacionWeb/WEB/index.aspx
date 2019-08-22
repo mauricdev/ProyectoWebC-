@@ -14,6 +14,7 @@
             <asp:Label ID="Label1" runat="server" Text="Ingrese rut Cliente"></asp:Label>
             <br />
             <asp:TextBox ID="txt_rut" runat="server"></asp:TextBox>
+            <asp:Button ID="Btn_reservar" runat="server" Text="Generar Reserva" />
             <br />
             <br />
             <br />

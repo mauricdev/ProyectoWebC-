@@ -10,7 +10,7 @@
 namespace WEB {
     
     
-    public partial class index {
+    public partial class reservar {
         
         /// <summary>
         /// Control form1.
@@ -22,6 +22,15 @@ namespace WEB {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// Control lbl_nombrecli.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_nombrecli;
+        
+        /// <summary>
         /// Control Label1.
         /// </summary>
         /// <remarks>
@@ -31,48 +40,66 @@ namespace WEB {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Control txt_rut.
+        /// Control txt_fechayhora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_rut;
+        protected global::System.Web.UI.WebControls.TextBox txt_fechayhora;
         
         /// <summary>
-        /// Control Btn_reservar.
+        /// Control Calendar1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_reservar;
+        protected global::System.Web.UI.WebControls.Calendar Calendar1;
         
         /// <summary>
-        /// Control Btn_reservas.
+        /// Control txt_cantperso.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_reservas;
+        protected global::System.Web.UI.WebControls.TextBox txt_cantperso;
         
         /// <summary>
-        /// Control Btn_FinReservas.
+        /// Control Listadomesas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_FinReservas;
+        protected global::System.Web.UI.WebControls.Table Listadomesas;
         
         /// <summary>
-        /// Control Btn_AdmClientes.
+        /// Control MesasSeleccionadas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_AdmClientes;
+        protected global::System.Web.UI.WebControls.Table MesasSeleccionadas;
+        
+        /// <summary>
+        /// Control txt_observacion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_observacion;
+        
+        /// <summary>
+        /// Control Btn_guardarreserva.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn_guardarreserva;
     }
 }
