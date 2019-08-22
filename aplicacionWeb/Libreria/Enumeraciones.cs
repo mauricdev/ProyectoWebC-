@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    class Enumeraciones
-    {
+    
         public enum Comunas
         {
             Concepción,
@@ -45,5 +44,5 @@ namespace Libreria
             Alto_Biobío
 
         }
-    }
+    
 }
