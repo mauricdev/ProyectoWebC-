@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    class Reservas
+    public class Reservas
     {
         private string _codigoReserva;
 

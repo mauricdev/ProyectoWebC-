@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    class Clientes
+    public class Clientes
     {
         private string _rut;
 

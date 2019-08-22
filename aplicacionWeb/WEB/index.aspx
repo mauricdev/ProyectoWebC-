@@ -10,6 +10,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <br />
+            <asp:Label ID="Label1" runat="server" Text="Ingrese rut Cliente"></asp:Label>
+            <br />
+            <asp:TextBox ID="txt_rut" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <br />
+
+            <asp:Button ID="Btn_reservas" runat="server" Text="Listar Reservas" />
+            <asp:Button ID="Btn_FinReservas" runat="server" Text="Finalizar Reservas" />
+            <asp:Button ID="Btn_AdmClientes" runat="server" Text="Administrar Clientes" />
+            <br />
+            <br />
         </div>
     </form>
 </body>

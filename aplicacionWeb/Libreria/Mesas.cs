@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    class Mesas
+    public class Mesas
     {
         private int _numeromesa;
 
