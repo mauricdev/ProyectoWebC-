@@ -56,14 +56,6 @@ namespace Libreria
             set { _horaReserva = value; }
         }
 
-        private DateTime _horafinRese;
-
-        public DateTime HoraFinReserva
-        {
-            get { return _horafinRese; }
-            set { _horafinRese = value; }
-        }
-
         private int _cantPersAsistentes;
 
         public int CantidadPersonasAsis
@@ -72,13 +64,21 @@ namespace Libreria
             set { _cantPersAsistentes = value; }
         }
 
+        private string _observacion;
 
-        private string _nombreMesero;
-
-        public string NombreMesero
+        public string Observacion
         {
-            get { return _nombreMesero; }
-            set { _nombreMesero = value; }
+            get { return _observacion; }
+            set { _observacion = value; }
         }
+
+
+
+
+
+
+
+
+
     }
 }
