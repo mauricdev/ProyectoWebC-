@@ -1,0 +1,30 @@
+crear una aplicacion web para un restaurante,
+donde se puedan hacer reservas de mesas....
+para esto tendriamos 4 clases que son:
+
+Clientes
+ ->rut         (p)
+ ->nombre
+ ->apellido
+ ->Direccion
+ ->comuna
+ ->telefono
+ ->mail
+
+Mesas
+ ->numero       (p)
+ ->ubicacion
+ ->cantPersonas
+
+Enumeraciones 
+ ->Comunas
+ 
+Reserva
+ -> numeroReserva (p)     
+ -> rutCliente    (fk)
+ -> numeroMesa    (fk)
+ -> FechayHoraRegistroReserva
+ -> FechaReserva
+ -> HoraReserva
+ -> HoraFinReserva
+ -> CantPersonas   (asistentes) 
