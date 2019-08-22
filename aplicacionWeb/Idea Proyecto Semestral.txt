@@ -26,5 +26,8 @@ Reserva
  -> FechayHoraRegistroReserva
  -> FechaReserva
  -> HoraReserva
- -> HoraFinReserva
  -> CantPersonas   (asistentes) 
+
+
+
+ Link enviar correos : http://www.7sabores.com/blog/enviar-correo-electronico-mediante-smtp-csharp
