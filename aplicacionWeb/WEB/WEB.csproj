@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.aspx" />
+    <Content Include="ListarClientes.aspx" />
     <Content Include="listareservas.aspx" />
     <Content Include="registrarcliente.aspx" />
     <Content Include="reservar.aspx" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarClientes.aspx.cs">
+      <DependentUpon>ListarClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarClientes.aspx.designer.cs">
+      <DependentUpon>ListarClientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="listareservas.aspx.cs">
       <DependentUpon>listareservas.aspx</DependentUpon>
