@@ -19,7 +19,7 @@
             <br />
             <br />
 
-            <asp:Button ID="Btn_reservas" runat="server" Text="Listar Reservas" />
+            <asp:Button ID="Btn_reservas" runat="server" Text="Listar Reservas" OnClick="Btn_reservas_Click" />
             <asp:Button ID="Btn_FinReservas" runat="server" Text="Finalizar Reservas" />
             <asp:Button ID="Btn_AdmClientes" runat="server" Text="Administrar Clientes" />
             <br />
