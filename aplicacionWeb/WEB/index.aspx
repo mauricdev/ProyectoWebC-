@@ -2,7 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Label ID="Label1" runat="server" Text="Ingrese rut Cliente"></asp:Label>
+    <asp:Label ID="lbl_rut" runat="server" Text="Ingrese rut Cliente"></asp:Label>
+    <asp:Label ID="Label1" runat="server" Text="recuerda que debes ser sin puntos y con guíon"></asp:Label>
     <br />
     <asp:TextBox ID="txt_rut"  runat="server" OnTextChanged="txt_rut_LostFocus"></asp:TextBox>
     <asp:Button ID="Btn_reservar" runat="server" Text="Generar Reserva" OnClick="Btn_reservar_Click" />
