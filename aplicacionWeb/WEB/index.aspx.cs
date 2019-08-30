@@ -14,14 +14,24 @@ namespace WEB
 
         }
 
-        protected void Btn_reservas_Click(object sender, EventArgs e)
+        protected void Btn_lisreservas_Click(object sender, EventArgs e)
         {
 
         }
 
-        protected void txt_rut_LostFocus(object sender, EventArgs e)
+        protected void Btn_AdmClientes_Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Btn_FinReservas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Btn_reservar_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

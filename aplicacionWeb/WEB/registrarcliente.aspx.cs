@@ -13,5 +13,10 @@ namespace WEB
         {
 
         }
+
+        protected void Btn_registrarCliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
