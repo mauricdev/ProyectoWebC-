@@ -13,6 +13,15 @@ namespace WEB {
     public partial class index {
         
         /// <summary>
+        /// Control lbl_rut.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_rut;
+        
+        /// <summary>
         /// Control Label1.
         /// </summary>
         /// <remarks>
@@ -40,13 +49,22 @@ namespace WEB {
         protected global::System.Web.UI.WebControls.Button Btn_reservar;
         
         /// <summary>
-        /// Control RangeValidator1.
+        /// Control RangeValidatorrut.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidatorrut;
+        
+        /// <summary>
+        /// Control RequiredFieldValidatorrut.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorrut;
         
         /// <summary>
         /// Control Btn_lisreservas.
