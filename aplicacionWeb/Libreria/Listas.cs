@@ -6,5 +6,9 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    public 
+    public partial class Listas
+    {
+        public static ClienteCollection _Lclientes = new ClienteCollection();
+        public static ReservasCollection _LReservas = new ReservasCollection();
+    }
 }
