@@ -18,5 +18,10 @@ namespace WEB
         {
 
         }
+
+        protected void txt_rut_LostFocus(object sender, EventArgs e)
+        {
+
+        }
     }
 }
