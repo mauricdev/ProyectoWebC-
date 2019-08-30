@@ -1,16 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="reservar.aspx.cs" Inherits="WEB.reservar" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="reservar.aspx.cs" Inherits="WEB.reservar" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
 
-<!DOCTYPE html>
+    <br />
+    
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            Generar Reserva<br />
+    Generar Reserva<br />
             <br />
             Nombre Cliente:<br />
             <asp:Label ID="lbl_nombrecli" runat="server" Text="nombrecli apellidocli"></asp:Label>
@@ -44,9 +41,6 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="Btn_guardarreserva" runat="server" Text="Guardar Reserva" Width="434px" />
+            <asp:Button ID="Btn_guardarreserva" runat="server" Text="Guardar Reserva" Width="434px" OnClick="Btn_guardarreserva_Click" />
             <br />
-        </div>
-    </form>
-</body>
-</html>
+</asp:Content>

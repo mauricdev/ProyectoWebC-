@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace WEB
 {
-    public partial class reservar : System.Web.UI.Page
+    public partial class Site1 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Btn_guardarreserva_Click(object sender, EventArgs e)
         {
 
         }

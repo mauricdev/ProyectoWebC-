@@ -13,5 +13,15 @@ namespace WEB
         {
 
         }
+
+        protected void Btn_listarc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Btn_listarc_Click1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
