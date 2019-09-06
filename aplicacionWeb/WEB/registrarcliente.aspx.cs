@@ -26,5 +26,10 @@ namespace WEB
         {
 
         }
+
+        protected void Cbx_comuna_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

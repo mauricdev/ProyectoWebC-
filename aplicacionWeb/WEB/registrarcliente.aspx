@@ -22,7 +22,7 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txt_apellido" ErrorMessage="RequiredFieldValidator" ForeColor="#FF3300">Debe ingresar la direccion</asp:RequiredFieldValidator>
                 <br />
                 Comuna<br />
-                <asp:DropDownList ID="Cbx_comuna" runat="server" Width="294px">
+                <asp:DropDownList ID="Cbx_comuna" runat="server" Width="294px" OnSelectedIndexChanged="Cbx_comuna_SelectedIndexChanged">
                 </asp:DropDownList>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="DropDownList1" ErrorMessage="RequiredFieldValidator" ForeColor="#FF3300">Seleccione una comuna</asp:RequiredFieldValidator>
                 <br />
