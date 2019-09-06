@@ -24,7 +24,7 @@
                 Comuna<br />
                 <asp:DropDownList ID="Cbx_comuna" runat="server" Width="294px" OnSelectedIndexChanged="Cbx_comuna_SelectedIndexChanged">
                 </asp:DropDownList>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="DropDownList1" ErrorMessage="RequiredFieldValidator" ForeColor="#FF3300">Seleccione una comuna</asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="Cbx_comuna" ErrorMessage="RequiredFieldValidator" ForeColor="#FF3300">Seleccione una comuna</asp:RequiredFieldValidator>
                 <br />
                 Telefono:<br />
                 <asp:TextBox ID="txt_telefono" runat="server" Width="279px"></asp:TextBox>
