@@ -34,7 +34,14 @@ namespace WEB
         {
             if (txt_rut.Text !=  string.Empty || txt_rut.Text.Length != 0)
             {
-                
+                foreach (var item in Listas.clientes.Mostrar)
+                {
+                    if (rut == item.Rut)
+                    {
+                        
+
+                    }
+                }
             }
         }
 
