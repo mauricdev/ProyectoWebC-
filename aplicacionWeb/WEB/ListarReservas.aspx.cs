@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WEB
 {
-    public partial class listareservas : System.Web.UI.Page
+    public partial class ListarReservas : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

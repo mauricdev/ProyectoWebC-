@@ -2,7 +2,7 @@
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
   <siteMapNode url="index.aspx" title="inicio"  description="">
     <siteMapNode url="ListarClientes.aspx" title="Lista de clientes"  description="" />
-    <siteMapNode url="listareservas.aspx" title="Lista de reservas"  description="" />
+    <siteMapNode url="ListarReservas.aspx" title="Lista de reservas"  description="" />
     <!--
     <siteMapNode url="registrarcliente.aspx" title="Registrar clientes"  description="" />
     <siteMapNode url="reservar.aspx" title="Reservas"  description="" />
