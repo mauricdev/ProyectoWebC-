@@ -32,11 +32,12 @@ namespace WEB
 
         protected void Btn_reservar_Click(object sender, EventArgs e)
         {
+
             if (txt_rut.Text !=  string.Empty || txt_rut.Text.Length != 0)
             {
-                foreach (var item in Listas.clientes.Mostrar)
+                foreach (var item in Listas._Lclientes.Mostrar)
                 {
-                    if (rut == item.Rut)
+                    if (txt_rut.Text == item.Rut)
                     {
                         
 
