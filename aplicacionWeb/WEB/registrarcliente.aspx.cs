@@ -13,7 +13,8 @@ namespace WEB
      
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            String Valor = Request.QueryString["Valor"];
+            lbl_rut.Text = Valor;
             //cargando combobox comunas desde enumeracion
             foreach (Comunas r in Enum.GetValues(typeof(Comunas)))
             {

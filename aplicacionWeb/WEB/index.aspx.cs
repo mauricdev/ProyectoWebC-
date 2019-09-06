@@ -32,18 +32,32 @@ namespace WEB
 
         protected void Btn_reservar_Click(object sender, EventArgs e)
         {
-
+            bool search = false;
             if (txt_rut.Text !=  string.Empty || txt_rut.Text.Length != 0)
             {
                 foreach (var item in Listas._Lclientes.Mostrar)
                 {
                     if (txt_rut.Text == item.Rut)
                     {
-                        
+                        Response.Redirect("reservar.aspx?Valor=" + txt_rut.Text);
+                        search = true;
+                        break;
 
-                        adasd
+                    }
+                    else {
+                        search = false;
                     }
                 }
+                if (search == false)
+                {
+                    //si no existe
+
+                    Response.Redirect("registrarcliente.aspx?Valor=" + txt_rut.Text);
+                    
+                }
+
+
+
             }
         }
 

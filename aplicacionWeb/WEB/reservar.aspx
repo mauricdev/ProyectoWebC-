@@ -14,7 +14,7 @@
             <br />
             <br />
             RUT:<br />
-            <asp:Label ID="Label1" runat="server" Text="11.111.111-1"></asp:Label>
+            <asp:Label ID="Lbl_rut" runat="server" Text="11.111.111-1"></asp:Label>
             <br />
             <br />
             Fecha y Hora de Reserva<br />
