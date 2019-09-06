@@ -10,7 +10,15 @@
 <body>
     <form id="form1" runat="server">
         <div style="height: 499px">
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            Lista de reservas<br />
+            <br />
+            Apellido<br />
+            <br />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>&nbsp;&nbsp;
+            <br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtlisAp" ErrorMessage="RequiredFieldValidator" ForeColor="Red">El apellido no puede estar vacio</asp:RequiredFieldValidator>
+            <br />
+            <br /><br /><asp:Button ID="btn_listar" runat="server" Text="Listar" OnClick="Button1_Click" Width="60px" /><br /><br />
             <asp:Table ID="tbl_reservas" runat="server">
             </asp:Table>
         </div>
