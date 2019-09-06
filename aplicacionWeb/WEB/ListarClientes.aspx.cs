@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Libreria;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,12 @@ namespace WEB
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //cargando combobox comunas desde enumeracion
+            foreach (Comunas r in Enum.GetValues(typeof(Comunas)))
+            {
+                ListItem item = new ListItem(Enum.GetName(typeof(Comunas), r), r.ToString());
+                DropComuna.Items.Add(item);
+            }
         }
 
         protected void Btn_listarc_Click(object sender, EventArgs e)
