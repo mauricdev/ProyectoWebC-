@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Libreria;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,10 @@ namespace WEB
         {
             String Valor = Request.QueryString["Valor"];
             Lbl_rut.Text = Valor;
+
+           
+
+
         }
 
         protected void Btn_guardarreserva_Click(object sender, EventArgs e)

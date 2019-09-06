@@ -39,6 +39,7 @@ namespace WEB
                 {
                     if (txt_rut.Text == item.Rut)
                     {
+                        //si existe
                         Response.Redirect("reservar.aspx?Valor=" + txt_rut.Text);
                         search = true;
                         break;
