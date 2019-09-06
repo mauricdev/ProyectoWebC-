@@ -32,9 +32,9 @@ namespace WEB
 
         protected void Btn_reservar_Click(object sender, EventArgs e)
         {
-            if (txt_rut.Text ==  string.Empty || txt_rut.Text.Length == 0)
+            if (txt_rut.Text !=  string.Empty || txt_rut.Text.Length != 0)
             {
-
+                
             }
         }
 

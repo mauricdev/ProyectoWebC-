@@ -13,8 +13,10 @@
                 
     <br />
     <br />
+    <!--
     <asp:Button ID="Btn_lisreservas" runat="server" Text="Listar Reservas" OnClick="Btn_lisreservas_Click" />
     <asp:Button ID="Btn_FinReservas" runat="server" Text="Finalizar Reservas" OnClick="Btn_FinReservas_Click" />
     <asp:Button ID="Btn_AdmClientes" runat="server" Text="Administrar Clientes" OnClick="Btn_AdmClientes_Click" />
+    -->
     <br />
 </asp:Content>
