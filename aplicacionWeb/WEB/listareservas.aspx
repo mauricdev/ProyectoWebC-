@@ -14,7 +14,7 @@
             <br />
             Apellido<br />
             <br />
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>&nbsp;&nbsp;
+            <asp:TextBox ID="txtlisAp" runat="server"></asp:TextBox>&nbsp;&nbsp;
             <br />
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtlisAp" ErrorMessage="RequiredFieldValidator" ForeColor="Red">El apellido no puede estar vacio</asp:RequiredFieldValidator>
             <br />
