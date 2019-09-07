@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Label ID="Label1" runat="server" Text="Registro Cliente"></asp:Label>
             <br />
-            <asp:Panel ID="Panel1" runat="server">
+            <asp:Panel ID="Panel1" runat="server" >
                 RUT Cliente:<br />
                 <asp:Label ID="lbl_rut" runat="server" Text="11.111.111-1"></asp:Label>
                 <br />
