@@ -1,8 +1,4 @@
-body{
-	
-    background: url("../imagenes/2.jpg") no-repeat 0 10%;
-   
-}
+
 
 .sidebar{
  position: absolute;
@@ -57,20 +53,13 @@ body{
         width: 100%;
     }
 }
-
-/**
- * A very simple reset that sits on top of Normalize.css.
- */
-
-
-
-/**
- * Remove trailing margins from nested lists.
- */
-li > ol,
-li > ul {
-    margin-bottom: 0;
+.div {
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    background-color: blue;
 }
+
 
 
 /* ==========================================================================

@@ -10,7 +10,7 @@
     </asp:ContentPlaceHolder>
     <link href ="Content/bootstrap.min.css" rel =" stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-   
+    
     <script src="Scripts/jquery-3.0.0.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/popper.min.js"></script>
