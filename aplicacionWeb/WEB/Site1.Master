@@ -16,22 +16,13 @@
     <script src="Scripts/popper.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!--<style>
-body{
-    background-image: url("img/fondo.jpg");
-    opacity: 0.5;   
-    filter: alpha(opacity=50);
- }
-</style>
--->
 </head>
 <body>
     
     <form id="form1" runat="server">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="index.aspx"><img src="imagenes/logo-reserva.png" alt="Image" width="50" height="40"></a>
-  
+  <a class="navbar-brand" href="index.aspx">Logo</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
@@ -61,10 +52,12 @@ body{
 <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center">
       <small>Copyright &copy; Sistema de reservas</small>
+    <p >
+        <img width ='100'  src="imagenes/logo-reserva.png" /></p>
     </div>
   </footer>
 
-</body>
+
 
 
 </html>

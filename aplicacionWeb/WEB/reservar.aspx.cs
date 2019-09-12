@@ -13,9 +13,7 @@ namespace WEB
         protected void Page_Load(object sender, EventArgs e)
         {
             String Valor = Request.QueryString["Valor"];
-            Lbl_rut.Text = Valor;
-
-           
+   
 
 
         }
