@@ -9,6 +9,8 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href ="Content/bootstrap.min.css" rel =" stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    
     <script src="Scripts/jquery-3.0.0.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/popper.min.js"></script>
@@ -23,6 +25,7 @@ body{
 </style>
 </head>
 <body>
+    
     <form id="form1" runat="server">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
@@ -41,17 +44,24 @@ body{
 <br>
   
               <div>
+                  <div>
+                      <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                      </asp:SiteMapPath>
+                  </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 
             </asp:ContentPlaceHolder>
         </div>
+
         
     </form>
+ 
 <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center">
       <small>Copyright &copy; Sistema de reservas</small>
     </div>
   </footer>
+
 </body>
 
 

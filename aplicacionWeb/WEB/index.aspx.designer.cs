@@ -22,15 +22,6 @@ namespace WEB {
         protected global::System.Web.UI.WebControls.TextBox txt_rut;
         
         /// <summary>
-        /// Control Btn_reservar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_reservar;
-        
-        /// <summary>
         /// Control RangeValidatorrut.
         /// </summary>
         /// <remarks>
@@ -47,6 +38,15 @@ namespace WEB {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorrut;
+        
+        /// <summary>
+        /// Control Btn_reservar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn_reservar;
         
         /// <summary>
         /// Control Btn_lisreservas.
