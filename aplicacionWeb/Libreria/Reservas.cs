@@ -40,17 +40,17 @@ namespace Libreria
             set { _fechayhoraregistro = value; }
         }
 
-        private DateTime _fechaReserva;
+        private string _fechaReserva;
 
-        public DateTime FechaReserva
+        public string FechaReserva
         {
             get { return _fechaReserva; }
             set { _fechaReserva = value; }
         }
 
-        private DateTime _horaReserva;
+        private string _horaReserva;
 
-        public DateTime HoraReserva
+        public string HoraReserva
         {
             get { return _horaReserva; }
             set { _horaReserva = value; }

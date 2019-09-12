@@ -31,22 +31,22 @@ namespace WEB {
         protected global::System.Web.UI.WebControls.Label Lbl_rut;
         
         /// <summary>
-        /// Control txt_fechayhora.
+        /// Control txt_fecha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_fechayhora;
+        protected global::System.Web.UI.WebControls.TextBox txt_fecha;
         
         /// <summary>
-        /// Control Calendar1.
+        /// Control txt_hora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar1;
+        protected global::System.Web.UI.WebControls.TextBox txt_hora;
         
         /// <summary>
         /// Control txt_cantperso.

@@ -16,11 +16,13 @@
             RUT:<br />
             <asp:Label ID="Lbl_rut" runat="server" Text="11.111.111-1"></asp:Label>
             <br />
+            Fecha de Reserva<br />
+    <asp:TextBox ID="txt_fecha" runat="server"></asp:TextBox>
             <br />
-            Fecha y Hora de Reserva<br />
-            <asp:TextBox ID="txt_fechayhora" runat="server" Width="307px"></asp:TextBox>
-            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            Hora de Reserva<br />
+            <asp:TextBox ID="txt_hora" runat="server" Width="307px"></asp:TextBox>
             <br />
+    <br />
             Cantidad de Personas Asistentes:<br />
             <asp:TextBox ID="txt_cantperso" runat="server" Width="252px"></asp:TextBox>
             <br />
@@ -37,7 +39,7 @@
             </asp:Table>
             <br />
             Observación<br />
-            <asp:TextBox ID="txt_observacion" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txt_observacion" runat="server" Height="101px" Width="699px"></asp:TextBox>
             <br />
             <br />
             <br />
