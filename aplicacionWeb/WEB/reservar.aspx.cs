@@ -13,7 +13,10 @@ namespace WEB
         protected void Page_Load(object sender, EventArgs e)
         {
             String Valor = Request.QueryString["Valor"];
-   
+            Lbl_rut.Text = Valor;
+            lbl_nombrecli.Text = Listas._Lclientes.BuscarRut(Valor);
+            Listadomesas
+           
 
 
         }

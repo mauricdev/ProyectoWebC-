@@ -10,5 +10,12 @@ namespace Libreria
     {
         public static ClienteCollection _Lclientes = new ClienteCollection();
         public static ReservasCollection _LReservas = new ReservasCollection();
+        public static MesasCollection _LMesas = new MesasCollection();
+
+
+        
+
+
+
     }
 }

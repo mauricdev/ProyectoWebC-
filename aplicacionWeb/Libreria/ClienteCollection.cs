@@ -22,7 +22,22 @@ namespace Libreria
             }
         }
 
-        
+        public string BuscarRut(string rut)
+        {
+
+            Clientes c = this.Where(item => item.Rut == rut).FirstOrDefault();
+
+            if (c == null)
+            {
+                return "CLIENTE NO ENCONTRADO";
+            }
+            else
+            {
+                
+
+                return c.Nombre + " " + c.Apellido;
+            }
+        }
 
 
     }

@@ -21,5 +21,18 @@ namespace Libreria
                 return this;
             }
         }
+
+
+        public Reservas buscar(string reserva)
+        {
+
+            Reservas r = this.Where(item => item.CodigoReserva == reserva).FirstOrDefault();
+
+           
+                return r;
+            
+        }
+
+
     }
 }
